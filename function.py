@@ -2,7 +2,7 @@ import cv2
 import tensorflow as tf
 import keras.models
 import numpy as np
-from space_main import MODEL
+from space import MODEL
 
 Space_Classifier = keras.models.load_model("nn.h5")
 def get_parking_space(connectedComponent):
